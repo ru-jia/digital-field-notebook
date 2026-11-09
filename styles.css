@@ -1,0 +1,126 @@
+
+/* 1. GLOBAL STYLES*/
+
+body {
+    margin: 0;
+    padding: 50px;
+    background-color: #dfdfdfd4;
+    color:#4f4f4f;
+    font-family: monospace;
+    line-height: 1.6;
+}
+
+
+/*  2. HEADER */
+
+header {
+    max-width: 1000px;
+    margin: 12px;
+    padding: 12px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+header h1 {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+/*  3. NAVIGATION */
+
+nav {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #4f4f4f;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/*  4. MAIN CONTENT */
+
+main {
+    max-width: 1000px;
+    margin: 20px ;
+    min-height: 50vh;
+}
+
+main h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 380;
+    letter-spacing: 1px;
+}
+
+article {
+    margin-bottom: 35px;
+}
+
+/* NOTE EXPAND BUTTON */
+
+.toggle-note {
+    background-color: transparent;
+    color: #4e4e4ec4;
+    border: 1px solid #40586a6b;
+    padding: 6px 6px;
+    font-family: monospace;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.toggle-note:hover {
+    background-color: #4d81a9cb;
+    color: rgb(255, 255, 255);
+}
+
+/* NOTE CATEGORY TAGS */
+
+.note-tag {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #777777;
+    background-color: #dce2e6;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+/* NOTE CONTROLS */
+
+.note-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*  5. RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    main {
+        margin-top: 30px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+}

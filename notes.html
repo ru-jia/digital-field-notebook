@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <!--fit screen-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        
+        <title>Notes</title>
+
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Digital Field Notebook</h1>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="notes.html">Notes</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+        </header>
+
+    <main>
+         <p>FIELD NOTES / 003</p>
+        <h2>Recent Notes</h2>
+
+        <article>
+            <h3>01. Understanding phase diagrams</h3>
+
+            <p>
+                Exploring the relationship between
+                pressure, temperature, and volume.
+            </p>
+
+            <!-- Button and tag share one row -->
+            <div class="note-controls">
+                <button class="toggle-note">Read more</button>
+                <span class="note-tag">thermodynamics</span>
+            </div>
+
+            <!-- Expandable content stays below -->
+            <p class="note-details" hidden>
+                A phase diagram describes the equilibrium
+                relationships between different phases of a substance.
+                It helps us understand how pressure and temperature
+                influence phase transitions.
+            </p>
+        </article>
+
+        <article>
+            <h3>02. Learning feedback systems</h3>
+
+            <p>
+                Notes on system dynamics and
+                feedback control.
+            </p>
+
+            <!-- Button and tag share one row -->
+            <div class="note-controls">
+                <button class="toggle-note">Read more</button>
+                <span class="note-tag">control</span>
+            </div>
+
+            <!-- Expandable content stays below -->
+            <p class="note-details" hidden>
+                A feedback control system measures its output 
+                and compares it with a desired reference. 
+                The controller uses the difference, or error, 
+                to adjust the input and influence the system's 
+                future behavior. This creates a continuous loop 
+                between sensing, decision-making, and action.
+            </p>
+        </article>
+
+
+        <article>
+            <h3>03. Thermal experiences in space</h3>
+
+            <p>
+                Observations about how physical
+                environments influence thermal comfort.
+            </p>
+
+            <!-- Button and tag share one row -->
+            <div class="note-controls">
+                <button class="toggle-note">Read more</button>
+                <span class="note-tag">thermal comfort</span>
+            </div>
+
+            <!-- Expandable content stays below -->
+            <p class="note-details" hidden>
+                Thermal comfort is influenced by more than air temperature. 
+                Mean radiant temperature, air movement, humidity, clothing, 
+                and activity all contribute to how we experience an environment. 
+                Two spaces at the same air temperature can therefore feel 
+                quite different.
+            </p>
+         </article>
+
+    </main>
+
+    </body>
+</html>
