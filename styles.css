@@ -181,7 +181,19 @@ article {
 .notebook-footer { max-width: 80ch; padding: 28px 0; color: #59686e; line-height: 1.8; }
 .recent-notes { padding-left: 18px; }
 .recent-notes li { margin-bottom: 12px; }
-.recent-notes a, .all-notes { color: #315e76; text-underline-offset: 3px; }
+.recent-notes a { color: #315e76; text-underline-offset: 3px; }
+.all-notes {
+    display: block;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid #bfc5c7;
+    text-align: right;
+    color: #4f4f4f;
+    font-size: .85em;
+    text-decoration: none;
+}
+.all-notes:hover { color: #315e76; text-decoration: underline; text-underline-offset: 3px; }
+.all-notes:focus-visible { outline: 2px solid #315e76; outline-offset: 4px; }
 @media (max-width: 800px) { .note-filters { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) {
     .note-filters { grid-template-columns: 1fr; }
