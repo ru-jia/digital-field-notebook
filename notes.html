@@ -1,108 +1,237 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-        <link href="styles.css" rel="stylesheet">
         <meta charset="UTF-8">
-        <!--fit screen-->
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        
-        <title>Notes</title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A working notebook on bodies and physical environments: observations, models, experiments, sketches, and questions in progress.">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>Notes · Digital Field Notebook</title>
         <script src="script.js" defer></script>
     </head>
-    <body>
+    <body class="notebook-page">
+        <a class="skip-link" href="#main">Skip to notes</a>
         <header>
             <h1>Digital Field Notebook</h1>
-
-            <nav>
+            <nav aria-label="Main navigation">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
-                <a href="notes.html">Notes</a>
+                <a href="notes.html" aria-current="page">Notes</a>
                 <a href="projects.html">Projects</a>
             </nav>
         </header>
+        <main id="main">
+            <section class="notebook-intro" aria-labelledby="notebook-title">
+                <p class="eyebrow">FIELD NOTES / 003</p>
+                <h2 id="notebook-title">Thinking things through.</h2>
+                <p class="notebook-question">How do bodies experience and shape their environments?</p>
+                <p class="intro-copy">I keep this notebook to work through questions about bodies and physical environments. It holds observations, models, experiments, and sketches, along with the revisions and unresolved questions that emerge between them.</p>
+            </section>
 
-    <main>
-         <p>FIELD NOTES / 003</p>
-        <h2>Recent Notes</h2>
+            <section class="notebook-index" aria-labelledby="index-title">
+                <div class="index-heading"><h3 id="index-title">Explore the notebook</h3><p id="note-count" role="status">9 notes</p></div>
+                <p class="index-explainer">Follow a question across media, or stay with one medium to look more closely. Each note also names the methods behind the work.</p>
+                <div class="note-filters" id="note-filters" hidden>
+                    <div class="filter-field"><label for="lens-filter">Inquiry</label><select id="lens-filter"><option value="">All inquiries</option><option value="experience">Bodies &amp; experience</option><option value="mechanisms">Environmental mechanisms</option><option value="agency">Sensing &amp; agency</option></select></div>
+                    <div class="filter-field"><label for="medium-filter">Medium</label><select id="medium-filter"><option value="">All media</option><option value="Drawing">Drawing</option><option value="Diagramming">Diagramming</option><option value="Spatial design">Spatial design</option><option value="Simulation">Simulation</option><option value="Physical prototyping">Physical prototyping</option><option value="Data analysis">Data analysis</option><option value="Exhibition">Exhibition</option></select></div>
+                    <div class="filter-field filter-search"><label for="note-search">Search notes & methods</label><input id="note-search" type="search" placeholder="e.g. humidity, RC model, drawing" autocomplete="off"></div>
+                    <button type="button" class="reset-filters" id="reset-filters">Reset</button>
+                </div>
+            </section>
 
-        <article>
-            <h3>01. Understanding phase diagrams</h3>
+            <div class="notes-list" id="notes-list">
+<article class="field-note" id="drawing-bodies-in-transit" data-lenses="[&quot;experience&quot;]" data-media="[&quot;Drawing&quot;]">
+    <div class="entry-meta"><span>NOTE / 001</span><div class="entry-context"><time class="note-origin" datetime="2025-09-06" title="Earliest traced note or author-confirmed starting date.">2025-09-06</time><span>Project reflection</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#drawing-bodies-in-transit">Drawing bodies in transit</a></h3>
+    <p class="note-abstract">In my In Transit proposal, six years of moving around New York enter the drawings through bodies that overlap, pass, and disappear. I want to keep that duration and instability visible alongside the more measurable environments I study.</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Bodies &amp; experience</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Drawing</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>Figure studies · Layering · Temporal notation</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>A contour can belong to more than one moment</h4>
+<p>For In Transit, I described a body of figure studies and drawings of people moving through public scenes. The words I returned to were motion, encounter, overlap, and disappearance. Layering figures lets a single image hold moments that would occur separately in time.</p>
+<p>The drawings also look back at six years of moving around New York. Passing through a place is both a bodily action and a condition of living: a room, a route, or a neighborhood can be familiar without being permanent.</p>
+<h4>What drawing lets me attend to</h4>
+<p>A figure study can stay close to a gesture. In a layered public scene, the same gesture becomes part of an encounter or a larger movement. I am interested in that shift of attention between a particular body and the space it shares with others.</p>
+<p>This is different from describing a room with a single average condition. Duration, memory, and the uncertainty of occupying a place are also part of how an environment is experienced.</p>
+<h4>Keeping this part of the practice</h4>
+<p>In thinking about my next steps, I have tried to find language that makes room for both technical development and serious artistic work. I corrected one description that made this sound like reluctance to commit: I wanted to say that I hoped to pursue both.</p>
+<p>These drawings have their own questions about bodies and time. I want them to remain part of the notebook as my other work becomes more concerned with models, measurements, and physical systems.</p></div>
+    </details>
+</article>
 
-            <p>
-                Exploring the relationship between
-                pressure, temperature, and volume.
-            </p>
+<article class="field-note" id="a-room-can-have-many-climates" data-lenses="[&quot;experience&quot;, &quot;mechanisms&quot;]" data-media="[&quot;Spatial design&quot;, &quot;Simulation&quot;]">
+    <div class="entry-meta"><span>NOTE / 002</span><div class="entry-context"><time class="note-origin" datetime="2019-02" title="Month recorded; exact day unknown.">2019-02</time><span>Study note</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#a-room-can-have-many-climates">A room can have more than one climate</a></h3>
+    <p class="note-abstract">My Bath House project began in February 2019 with hot and cold, wet and dry, enclosure and exposure. Returning to it after studying building physics, I can ask more precisely how a sequence of spaces becomes a sequence of bodily conditions.</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Bodies &amp; experience</span><span class="note-tag note-tag--lens">Environmental mechanisms</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Spatial design</span><span class="note-tag">Simulation</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>Thermal comfort · Radiant exchange · Microclimate sequences</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>Before I had the equations</h4>
+<p>Bath House dates back to February 2019. In revisiting the project, I return to pairs of conditions: hot and cold, wet and dry, embedded and exposed. The project text describes water moving between ice, liquid, and vapor, with different bathing spaces arranged as a bodily sequence.</p>
+<p>Those were spatial and sensory choices. The building-physics questions I can now ask of them came later.</p>
+<h4>Giving an experience a physical description</h4>
+<p>A body exchanges heat through radiation, convection, evaporation, and contact. A warm surface, a moving current of air, and humid air do different things to that exchange. Two locations at the same air temperature can therefore offer different conditions.</p>
+<p>Looking back, I can translate some of the spatial questions into more specific ones: Which surfaces does the body exchange radiation with? Where does air move across the skin? What limits evaporative heat loss? What changes when a person moves from one room to another?</p>
+<h4>Working backward from a desired condition</h4>
+<p>In a later discussion, I asked whether environmental design could work backward: start with a body and a desired range of experience, then identify combinations of spatial and system properties that could produce it. The answer might be a feasible range rather than a single form.</p>
+<p>That question gives me a way to revisit this early project. I would now want to separate the intended experience, the physical conditions that might support it, and the evidence needed to compare alternatives. The original design has not been experimentally validated by the later analysis.</p></div>
+    </details>
+</article>
 
-            <!-- Button and tag share one row -->
-            <div class="note-controls">
-                <button class="toggle-note">Read more</button>
-                <span class="note-tag">thermodynamics</span>
+<article class="field-note" id="what-a-thermal-model-leaves-out" data-lenses="[&quot;mechanisms&quot;]" data-media="[&quot;Simulation&quot;]">
+    <div class="entry-meta"><span>NOTE / 003</span><div class="entry-context"><time class="note-origin" datetime="2026-04-01" title="Earliest traced note or author-confirmed starting date.">2026-04-01</time><span>Project reflection</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#what-a-thermal-model-leaves-out">What does a thermal model leave out?</a></h3>
+    <p class="note-abstract">While reducing a TRNSYS museum model to an RC network, I had to decide which heat paths deserved their own resistance. A rough comparison between ventilation and window conductance made that choice much less abstract.</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Environmental mechanisms</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Simulation</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>1R1C / 2R2C models · Parameter identification · Residual analysis</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>The model was already there; the abstraction was mine</h4>
+<p>I returned to a multi-zone TRNSYS study from earlier professional work for my energy-technology coursework. With limited time, I wanted to choose a zone where changing thermal mass would produce a visible difference. Strong solar gains seemed useful because they could make thermal lag easier to observe.</p>
+<p>Then came a more basic question: how many resistances and capacitances should the reduced model contain?</p>
+<h4>A heat path I could not casually leave out</h4>
+<p>In one rough calculation, I compared ventilation and glazing. Using a ventilation flow of 153.9 cfm for a 100 m² zone gave a sensible-heat conductance on the order of 0.08 kW/K. The glazing calculation was about 0.012 kW/K. Under those assumptions, the air-exchange path was several times larger.</p>
+<p>That estimate was a reason to reconsider the network, rather than evidence that a particular network had already been validated. I still needed to check the units, actual operating schedules, and how the reference model accounted for conditioned supply air.</p>
+<h4>What calibration can and cannot tell me</h4>
+<p>The coursework developed from a 1R1C representation to a 2R2C model separating air and thermal mass, identifying parameters against TRNSYS output and examining the temperature residuals. Agreement with a detailed simulation tests the reduction against that reference. Measured building data would be another level of validation.</p>
+<p>A later question pushed this further: could I start with a desired thermal condition and work backward to feasible parameters? Before asking a model to do that, I need to know which paths it preserves, which it collapses, and whether its errors matter for the decision at hand.</p></div>
+    </details>
+</article>
+
+<article class="field-note" id="living-wall-humidity-feedback" data-lenses="[&quot;mechanisms&quot;, &quot;experience&quot;]" data-media="[&quot;Simulation&quot;]">
+    <div class="entry-meta"><span>NOTE / 004</span><div class="entry-context"><time class="note-origin" datetime="2026-06-12" title="Earliest traced note or author-confirmed starting date.">2026-06-12</time><span>In progress</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#living-wall-humidity-feedback">When does adding more living wall stop helping?</a></h3>
+    <p class="note-abstract">A question from a review of my summer work was whether more green-wall area eventually stops helping. I kept returning to a harder question: is humidity feedback a meaningful cause of that change, or just a plausible story?</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Environmental mechanisms</span><span class="note-tag note-tag--lens">Bodies &amp; experience</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Simulation</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>Evapotranspiration · Moisture balance · Counterfactual comparison</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>A question that survived the presentation</h4>
+<p>My summer living-wall work began as an attempt to quantify cooling in an atrium model. In a later review, the discussion turned to whether there might be a useful size or geometry beyond which the benefit diminishes.</p>
+<p>I could follow the humidity explanation most readily. More leaf area might increase total evapotranspiration, adding moisture to the room. A smaller vapor-pressure deficit could then reduce evapotranspiration per unit leaf area. But I was not convinced that the effect would be large enough to explain the behavior.</p>
+<h4>A plausible loop is not yet an explanation</h4>
+<p>I asked whether this was a valid concern, rather than a question invented to make a paper. Evapotranspiration does not need to stop completely for moisture feedback to matter. What matters is how much the feedback changes the cooling benefit under the conditions being studied.</p>
+<p>I also needed to distinguish that mechanism from other effects: humidity may affect comfort or latent-conditioning demand, and changing the size of a wall may change both leaf area and other physical properties.</p>
+<h4>Making the comparison answerable</h4>
+<p>The working comparison separates wall footprint from leaf density and tracks total ET, ET per unit leaf area, humidity, VPD, and operative temperature. A humidity-constrained comparison would help test how much of the response depends on accumulated moisture.</p>
+<p>When reconsidering the model, I proposed using a clearly specified shoebox rather than reproducing every detail of the original project. I even questioned whether HVAC control belonged in this first study. The model needs enough detail to answer the mechanism question; the hypothesis and the size of its effect remain to be established.</p></div>
+    </details>
+</article>
+
+<article class="field-note" id="energy-aware-sensing" data-lenses="[&quot;mechanisms&quot;, &quot;agency&quot;]" data-media="[&quot;Physical prototyping&quot;]">
+    <div class="entry-meta"><span>NOTE / 005</span><div class="entry-context"><time class="note-origin" datetime="2026-09-21" title="Earliest traced note or author-confirmed starting date.">2026-09-21</time><span>In progress</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#energy-aware-sensing">What can a sensor afford to measure?</a></h3>
+    <p class="note-abstract">My TEG project became more concrete when it moved from a wearable ambition to a bounded prototype: measure stored energy, schedule an event, and check what happened. Getting an ADC stream was one step; knowing what the numbers meant was another.</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Environmental mechanisms</span><span class="note-tag note-tag--lens">Sensing &amp; agency</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Physical prototyping</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>Thermoelectric generation · LTC3108 · ADC measurement · Event scheduling</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>Narrowing the thing I could actually build</h4>
+<p>The early idea was body-heat-powered environmental sensing. I soon had to distinguish that ambition from the hardware in front of me. A roughly 40 × 40 mm TEG and a collection of boards were not yet a wearable. I decided to focus on a proof of concept I could characterize and explain.</p>
+<p>The current system brings together a TEG, an LTC3108 energy-harvesting circuit, capacitors, and a XIAO microcontroller. The immediate control task concerns the reserve and the interval between events.</p>
+<h4>When numbers started appearing</h4>
+<p>After working through the development environment and UF2 firmware, I could see a continuing stream of ADC-related values. My next questions were basic but necessary: how did the reading become a voltage, what did the divider change, and how should I record a multimeter value alongside it?</p>
+<p>Those questions separate a running program from a trustworthy measurement. A stream of converted values does not establish calibration, nor does USB-powered operation establish that harvested energy can sustain the node.</p>
+<h4>An event changes the energy budget</h4>
+<p>For a capacitor, E = 1/2 C V². Between events, harvested power can replenish storage; measurement and communication draw energy from it. Changing temperature difference, airflow, or contact changes the supply.</p>
+<p>The proposed comparison uses voltage feedback to adjust the waiting interval, alongside a fixed-timer baseline on the same hardware. I need to compare completed events, reserve trajectories, and resets under matched starting conditions. Reliable harvested-energy operation, environmental sensing, and eventual occupant response are distinct steps to demonstrate.</p></div>
+    </details>
+</article>
+
+<article class="field-note" id="choosing-feedback" data-lenses="[&quot;mechanisms&quot;, &quot;agency&quot;]" data-media="[&quot;Simulation&quot;, &quot;Physical prototyping&quot;]">
+    <div class="entry-meta"><span>NOTE / 006</span><div class="entry-context"><time class="note-origin" datetime="2026-09-03" title="Earliest traced note or author-confirmed starting date.">2026-09-03</time><span>Study note</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#choosing-feedback">Feedback begins with choosing what to measure</a></h3>
+    <p class="note-abstract">I could draw the feedback loop before I could confidently name every part of my TEG system. Mapping voltage, waiting time, thermal disturbances, and event energy onto that diagram changed what I thought I was controlling.</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Environmental mechanisms</span><span class="note-tag note-tag--lens">Sensing &amp; agency</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Simulation</span><span class="note-tag">Physical prototyping</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>State and output · Disturbances · Feedback control</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>What is the action?</h4>
+<p>When I brought a controls-textbook diagram to the TEG project, I wanted to know where each part of the hardware belonged and what equations connected them. The literature I was finding often described hardware performance rather than a ready-made controller.</p>
+<p>The distinction that mattered was between the energy entering the system and the command issued by the controller. The TEG supplies energy. The scheduling algorithm chooses how long to wait before another event.</p>
+<h4>Naming quantities before choosing a controller</h4>
+<p>The capacitor voltage is a measured output related to stored energy. The event interval is an available action. Thermal conditions disturb the supply, while an event consumes energy. A reference or reserve threshold expresses what I want the system to maintain.</p>
+<p>If the reserve is low, a longer wait may allow more recharging. Whether that produces reliable behavior depends on the actual harvesting and load dynamics. A block diagram alone cannot establish stability or an advantage over a fixed timer.</p>
+<h4>What changes when the output is a person&#x27;s experience?</h4>
+<p>In earlier POE work, I had already encountered distinctions between thermal sensation, comfort, and acceptability. An environmental controller needs the same care: air temperature, skin temperature, a comfort report, and a preference are different outputs.</p>
+<p>I also need to distinguish a natural feedback mechanism from feedback control. A plant can alter room humidity without a controller, setpoint, or manipulated actuator. Learning to name those differences has become part of learning what kind of problem I am actually trying to solve.</p></div>
+    </details>
+</article>
+
+<article class="field-note" id="phase-diagrams-and-assumptions" data-lenses="[&quot;mechanisms&quot;]" data-media="[&quot;Diagramming&quot;]">
+    <div class="entry-meta"><span>NOTE / 007</span><div class="entry-context"><time class="note-origin" datetime="2026-09-19" title="Earliest traced note or author-confirmed starting date.">2026-09-19</time><span>Study note</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#phase-diagrams-and-assumptions">A phase diagram is a map with conditions</a></h3>
+    <p class="note-abstract">In thermodynamics, I often get stuck at the sentence that makes a diagram sound obvious. Asking what the axes hold fixed, and what an equilibrium picture cannot explain, has helped me connect state maps with the processes I want to model.</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Environmental mechanisms</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Diagramming</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>Phase equilibrium · P–T / P–v diagrams · Thermodynamic state</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>Start with the picture, then question it</h4>
+<p>My phase-diagram notes move between pVT surfaces and their pressure–temperature and pressure–specific-volume projections. A projection makes some relationships visible by leaving others out. Reading the axes is part of deciding what the picture can explain.</p>
+<p>A pressure–temperature diagram shows phase stability and equilibrium boundaries. A pressure–specific-volume view exposes the liquid–vapor coexistence region differently. Neither picture, by itself, supplies a rate of change.</p>
+<h4>The explanation I wanted to slow down</h4>
+<p>In another thermodynamics discussion, after understanding why heat flows from hot to cold, I asked why entropy increases and which part of the reasoning establishes the equilibrium condition. I wanted the assumptions and the argument, rather than a phrase I could repeat.</p>
+<p>For the simple comparison of heat Q passing between two fixed-temperature reservoirs, the combined entropy change is Q(1/Tcold − 1/Thot). The temperatures must be absolute, and the reservoir assumptions matter. That specific argument is easier to inspect than a general statement that energy rearranges itself.</p>
+<h4>Bringing it back to environmental work</h4>
+<p>The same need for distinctions appears in living-wall modeling: equilibrium phase relationships do not tell me how fast water leaves a leaf, how airflow changes transport, or how humidity accumulates in a room. Those require additional heat and mass balances.</p>
+<p>These notes record a way of learning I want to keep: stop at the step I do not understand, identify what is being assumed, and reconnect the diagram or equation to a physical process.</p></div>
+    </details>
+</article>
+
+<article class="field-note" id="demand-response-participation" data-lenses="[&quot;agency&quot;, &quot;experience&quot;]" data-media="[&quot;Data analysis&quot;]">
+    <div class="entry-meta"><span>NOTE / 008</span><div class="entry-context"><time class="note-origin" datetime="2026-10-14" title="Earliest traced note or author-confirmed starting date.">2026-10-14</time><span>In progress</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#demand-response-participation">A flexible load depends on someone participating</a></h3>
+    <p class="note-abstract">I joined the demand-response project expecting to analyze participation, then found myself asking what the dataset could tell us at all. Building its scope became part of the research, not just a step before the interesting work.</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Sensing &amp; agency</span><span class="note-tag note-tag--lens">Bodies &amp; experience</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Data analysis</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>Qualitative coding · Episode analysis · Corpus validation</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>Why use this source?</h4>
+<p>Before developing a taxonomy, I asked what Reddit accounts could reveal that utility-side data could not. A person may describe confusion before enrolling, a reason for refusing, or an experience of overriding a program. Those accounts differ from a log of what a device actually did.</p>
+<p>In the working division, Kathy applies an existing codebook while I explore the corpus from the bottom up. I want to compare those approaches without assuming they will produce the same categories.</p>
+<h4>The first obstacle was what counted as data</h4>
+<p>An earlier preparation stage retained 74,385 candidate posts. Many were visibly unrelated. In one pilot batch, the work moved toward 439 candidates for an embedding trial, but that is a version-specific intermediate set, not a final participant sample.</p>
+<p>I began separating exclusion decisions: promotional content, location, program connection, and remaining noise. The retained, review, and quarantined outputs serve different purposes. A discussion of price may be a personal experience rather than an advertisement, so a single keyword is not enough to settle the boundary.</p>
+<h4>Representation comes after those choices</h4>
+<p>TF-IDF, semantic embeddings, and clustering answer different questions. An embedding gives text a representation; clustering organizes representations; interpreting a cluster as a meaningful theme still requires examination.</p>
+<p>I asked why a particular model was a sensible research choice and worried whether someone without an AI subscription could reproduce my steps. The method needs to preserve inputs, rules, versions, and review decisions. The resulting categories would describe this corpus under these choices; they would not directly establish population prevalence or delivered grid services.</p></div>
+    </details>
+</article>
+
+<article class="field-note" id="what-should-an-environment-sense" data-lenses="[&quot;agency&quot;, &quot;experience&quot;]" data-media="[&quot;Exhibition&quot;, &quot;Spatial design&quot;]">
+    <div class="entry-meta"><span>NOTE / 009</span><div class="entry-context"><time class="note-origin" datetime="2026-09-29" title="Earliest traced note or author-confirmed starting date.">2026-09-29</time><span>Proposal</span></div></div>
+    <h3><a class="note-permalink" href="notes.html#what-should-an-environment-sense">What should an environment be allowed to sense?</a></h3>
+    <p class="note-abstract">While revising my sensing-exhibition proposal, I questioned whether the budget needed to center on hardware at all. The more interesting work was becoming the sequence of questions and the conditions people would place on being sensed.</p>
+    <div class="tag-row"><span class="facet-label">Inquiry</span><span class="note-tag note-tag--lens">Sensing &amp; agency</span><span class="note-tag note-tag--lens">Bodies &amp; experience</span></div>
+    <div class="tag-row"><span class="facet-label">Medium</span><span class="note-tag">Exhibition</span><span class="note-tag">Spatial design</span></div>
+    <p class="note-methods"><span class="facet-label">Methods</span>Scenario design · Participatory mapping · Capability–desirability matrix</p>
+    <details class="note-expansion">
+        <summary><span class="label-closed">Read field note</span><span class="label-open">Close field note</span></summary>
+        <div class="note-body"><h4>A change in what the exhibition needed to do</h4>
+<p>The proposal began close to my sensing and hardware work. When revising the implementation plan and budget, I pointed out that the project was primarily a poll and questioned the need for so many sensor purchases. I also wanted participation to happen within the exhibition rather than only before it.</p>
+<p>That changed the center of attention: the exhibition could investigate how people evaluate sensing and response, alongside showing what technologies can do.</p>
+<h4>Three questions, with room for conditions</h4>
+<p>What can an environment sense? What do we want it to sense? What should it do with that information?</p>
+<p>An environmental measurement, a physiological signal, and an inferred human state involve different interpretations. A participant might accept a measurement for one purpose and reject its use for another, or want a way to override the response.</p>
+<p>The proposal organizes the work around a sensing landscape, scenarios, and a capability–desirability matrix. I want the display to retain people&#x27;s conditions and disagreements rather than reduce them to a single approval score.</p>
+<h4>Exhibition as part of the method</h4>
+<p>The spatial sequence, wording of scenarios, response interface, and way contributions appear to later visitors would all shape the inquiry. Their design therefore needs to be documented along with the resulting visualization.</p>
+<p>This remains a proposal. There is no participant dataset or completed exhibition outcome to report yet. The next evidence would come from testing whether people understand the scenarios and can express the kinds of conditional responses the project hopes to learn from.</p></div>
+    </details>
+</article>
             </div>
-
-            <!-- Expandable content stays below -->
-            <p class="note-details" hidden>
-                A phase diagram describes the equilibrium
-                relationships between different phases of a substance.
-                It helps us understand how pressure and temperature
-                influence phase transitions.
-            </p>
-        </article>
-
-        <article>
-            <h3>02. Learning feedback systems</h3>
-
-            <p>
-                Notes on system dynamics and
-                feedback control.
-            </p>
-
-            <!-- Button and tag share one row -->
-            <div class="note-controls">
-                <button class="toggle-note">Read more</button>
-                <span class="note-tag">control</span>
-            </div>
-
-            <!-- Expandable content stays below -->
-            <p class="note-details" hidden>
-                A feedback control system measures its output 
-                and compares it with a desired reference. 
-                The controller uses the difference, or error, 
-                to adjust the input and influence the system's 
-                future behavior. This creates a continuous loop 
-                between sensing, decision-making, and action.
-            </p>
-        </article>
-
-
-        <article>
-            <h3>03. Thermal experiences in space</h3>
-
-            <p>
-                Observations about how physical
-                environments influence thermal comfort.
-            </p>
-
-            <!-- Button and tag share one row -->
-            <div class="note-controls">
-                <button class="toggle-note">Read more</button>
-                <span class="note-tag">thermal comfort</span>
-            </div>
-
-            <!-- Expandable content stays below -->
-            <p class="note-details" hidden>
-                Thermal comfort is influenced by more than air temperature. 
-                Mean radiant temperature, air movement, humidity, clothing, 
-                and activity all contribute to how we experience an environment. 
-                Two spaces at the same air temperature can therefore feel 
-                quite different.
-            </p>
-         </article>
-
-    </main>
-
+            <p id="empty-notes" class="empty-notes" hidden>No notes match this combination. Try another inquiry or medium, or reset the filters.</p>
+            <footer class="notebook-footer">An open notebook: study notes, project reflections, and proposals. Dates trace the earliest related thinking or records; some are known only to the month. Each entry names its current stage; questions can remain unresolved.</footer>
+        </main>
     </body>
 </html>
